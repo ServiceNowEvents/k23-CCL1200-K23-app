@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>77c5bb961b3819101363ff37dc4bcb72</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_model">
+    <x_snc_flt_mgmt_model action="INSERT_OR_UPDATE">
+        <manufacturer display_value="Ram">9d057f161b3819101363ff37dc4bcb54</manufacturer>
+        <model>1500</model>
+        <model_name>2019 Ram 1500</model_name>
+        <notes/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:21:51</sys_created_on>
+        <sys_id>77c5bb961b3819101363ff37dc4bcb72</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:24:24</sys_updated_on>
+        <type>Truck</type>
+        <year>2019</year>
+    </x_snc_flt_mgmt_model>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:26:16</sys_created_on>
+        <sys_id>40e6bf1a1b3819101363ff37dc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2019 Ram 1500</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_40e6bf1a1b3819101363ff37dc4bcb7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:26:16</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_model</tablename>
+    </sys_metadata_link>
+</record_update>

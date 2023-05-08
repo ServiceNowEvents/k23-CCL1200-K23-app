@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
+    <sys_ux_data_broker_graphql action="INSERT_OR_UPDATE">
+        <api_name>x_snc_flt_mgmt.Get Related Vehicle Info GQL</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get Related Vehicle Info GQL</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "vehicleSysId",&#13;
+        "label": "Vehicle SysID",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+      }&#13;
+]</props>
+        <query>query ($vehicleSysId: ID!) {&#13;
+    xSncFltMgmt {&#13;
+        fleet {&#13;
+            vehicle(id: $vehicleSysId) {&#13;
+                maintReqs {&#13;
+                    id&#13;
+                    number&#13;
+                    shortDescription&#13;
+                    assignedTo {&#13;
+                        id&#13;
+                        name&#13;
+                    }&#13;
+                    maintTasks {&#13;
+                        id&#13;
+                        number&#13;
+                        shortDescription&#13;
+                        assignedTo {&#13;
+                            id&#13;
+                            name&#13;
+                        }&#13;
+                    }&#13;
+                }&#13;
+                parts {&#13;
+                    serialNumber&#13;
+                    partName&#13;
+                }&#13;
+            }&#13;
+        }&#13;
+    }&#13;
+}</query>
+        <required_translations>[ {
+  "message" : "Vehicle SysID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[(function buildQuery(query, inputs) { 
+         var qb = new GraphQLQueryBuilder(query, inputs);
+   // return appropriate query here
+    return qb; 
+   })(query, inputs);]]></script>
+        <sys_class_name>sys_ux_data_broker_graphql</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-22 17:25:43</sys_created_on>
+        <sys_id>417d275887a15550bf924085dabb3553</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Get Related Vehicle Info GQL</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_data_broker_graphql_417d275887a15550bf924085dabb3553</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 15:35:01</sys_updated_on>
+        <type>query</type>
+        <use_record_domain>false</use_record_domain>
+    </sys_ux_data_broker_graphql>
+    <sys_translated_text action="delete_multiple" query="documentkey=417d275887a15550bf924085dabb3553"/>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b78237188785d110b278caa5cebb35a1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number_counter">
+    <sys_number_counter action="INSERT_OR_UPDATE">
+        <number>1002</number>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-27 03:28:14</sys_created_on>
+        <sys_id>b78237188785d110b278caa5cebb35a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-27 03:28:14</sys_updated_on>
+        <table display_value="" name="x_snc_flt_mgmt_maint_task">x_snc_flt_mgmt_maint_task</table>
+    </sys_number_counter>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 15:44:19</sys_created_on>
+        <sys_id>4ed06894396a21107f44ea0f5e507bfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1,002</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_4ed06894396a21107f44ea0f5e507bfc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 15:44:19</sys_updated_on>
+        <tablename>sys_number_counter</tablename>
+    </sys_metadata_link>
+</record_update>

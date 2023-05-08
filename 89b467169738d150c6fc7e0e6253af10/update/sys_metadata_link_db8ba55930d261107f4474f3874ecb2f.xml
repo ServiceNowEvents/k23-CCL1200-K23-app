@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>3ed4e59130d261107f4474f3874ecb65</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_vehicle">
+    <x_snc_flt_mgmt_vehicle action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Christen Mitchell">97000fcc0a0a0a6e0104ca999f619e5b</assigned_to>
+        <image/>
+        <license_plate>5l^d5]mGF#Rf</license_plate>
+        <mileage>38426</mileage>
+        <model display_value="2010 Honda Accord">bba6f7d61b3819101363ff37dc4bcb12</model>
+        <next_oil_change>2023-07-17</next_oil_change>
+        <next_tire_rotation>2023-07-06</next_tire_rotation>
+        <notes/>
+        <number>VHCL0001093</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 12:59:42</sys_created_on>
+        <sys_id>3ed4e59130d261107f4474f3874ecb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 12:59:42</sys_updated_on>
+        <vehicle_name>2010 Honda Accord</vehicle_name>
+        <vin>45.173.96.174</vin>
+    </x_snc_flt_mgmt_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 13:28:57</sys_created_on>
+        <sys_id>db8ba55930d261107f4474f3874ecb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2010 Honda Accord</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_db8ba55930d261107f4474f3874ecb2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 13:28:57</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b2cd418887c19110b278caa5cebb3589" label="Model" max_length="40" name="x_snc_flt_mgmt_model" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Manufacturer" max_length="32" name="manufacturer" reference="x_snc_flt_mgmt_manufacturer" type="reference"/>
+        <element label="Model" max_length="100" name="model" type="string"/>
+        <element display="true" label="Model name" max_length="100" name="model_name" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Car" sequence="0" value="Car"/>
+                <element inactive_on_update="false" label="Truck" sequence="1" value="Truck"/>
+                <element inactive_on_update="false" label="Van" sequence="2" value="Van"/>
+                <element inactive_on_update="false" label="Semi" sequence="3" value="Semi"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Year" max_length="40" name="year" type="integer"/>
+        <index name="index">
+            <element name="manufacturer"/>
+        </index>
+    </element>
+</database>

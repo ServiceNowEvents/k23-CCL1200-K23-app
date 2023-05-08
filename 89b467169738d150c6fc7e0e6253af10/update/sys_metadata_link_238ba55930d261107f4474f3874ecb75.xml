@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b6d4e59130d261107f4474f3874ecb69</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_vehicle">
+    <x_snc_flt_mgmt_vehicle action="INSERT_OR_UPDATE">
+        <assigned_to display_value="problem manageratf">4ac73ecd738123002728660c4cf6a72c</assigned_to>
+        <image/>
+        <license_plate>jr(@2EDKCo(y%rOIyu</license_plate>
+        <mileage>2771</mileage>
+        <model display_value="2019 Ram 1500">77c5bb961b3819101363ff37dc4bcb72</model>
+        <next_oil_change>2023-05-09</next_oil_change>
+        <next_tire_rotation>2023-06-21</next_tire_rotation>
+        <notes/>
+        <number>VHCL0001105</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 12:59:42</sys_created_on>
+        <sys_id>b6d4e59130d261107f4474f3874ecb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 12:59:42</sys_updated_on>
+        <vehicle_name>2019 Ram 1500</vehicle_name>
+        <vin>81.230.138.31</vin>
+    </x_snc_flt_mgmt_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 13:28:59</sys_created_on>
+        <sys_id>238ba55930d261107f4474f3874ecb75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2019 Ram 1500</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_238ba55930d261107f4474f3874ecb75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 13:28:59</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>

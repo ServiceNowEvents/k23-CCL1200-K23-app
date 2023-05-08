@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7d96b3561b3819101363ff37dc4bcb32</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_model">
+    <x_snc_flt_mgmt_model action="INSERT_OR_UPDATE">
+        <manufacturer display_value="Ford">091573561b3819101363ff37dc4bcb65</manufacturer>
+        <model>F150</model>
+        <model_name>2022 Ford 150</model_name>
+        <notes/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:25:25</sys_created_on>
+        <sys_id>7d96b3561b3819101363ff37dc4bcb32</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:25:38</sys_updated_on>
+        <type>Truck</type>
+        <year>2022</year>
+    </x_snc_flt_mgmt_model>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:26:16</sys_created_on>
+        <sys_id>c0e6bf1a1b3819101363ff37dc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022 Ford 150</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_c0e6bf1a1b3819101363ff37dc4bcb7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:26:16</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_model</tablename>
+    </sys_metadata_link>
+</record_update>

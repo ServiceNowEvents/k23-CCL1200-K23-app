@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fed4e59130d261107f4474f3874ecb62</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_vehicle">
+    <x_snc_flt_mgmt_vehicle action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Kyle Lindauer">12826bf03710200044e0bfc8bcbe5dc3</assigned_to>
+        <image/>
+        <license_plate>BfUq&amp;l6%R^OipxSto]u</license_plate>
+        <mileage>92413</mileage>
+        <model display_value="2023 Chevrolet Colorado">372ed10530d221107f4474f3874ecbfe</model>
+        <next_oil_change>2023-07-26</next_oil_change>
+        <next_tire_rotation>2023-05-25</next_tire_rotation>
+        <notes/>
+        <number>VHCL0001084</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 12:59:42</sys_created_on>
+        <sys_id>fed4e59130d261107f4474f3874ecb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 12:59:42</sys_updated_on>
+        <vehicle_name>2023 Chevrolet Colorado</vehicle_name>
+        <vin>1.22.226.201</vin>
+    </x_snc_flt_mgmt_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 13:29:00</sys_created_on>
+        <sys_id>fb8ba55930d261107f4474f3874ecbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2023 Chevrolet Colorado</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_fb8ba55930d261107f4474f3874ecbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 13:29:00</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>

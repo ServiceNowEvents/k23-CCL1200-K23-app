@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Vehicle History Tab">402045f487e19110ff1ffcc4dabb3536</macroponent>
+        <name>Open Vehicle Request</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    // route: page name
+    // fields: mandatory parameters
+    // params: optional parameters
+    var route = {
+        "route": "record",
+        "fields": {
+            "sysId": event.payload.sys_id,
+            "table": event.payload.table
+        },
+        "params": {}
+    };
+
+    api.emit('NAV_ITEM_SELECTED', route);
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-08-24 19:39:32</sys_created_on>
+        <sys_id>8d9f5e8d87e1d110ff1ffcc4dabb3546</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open Vehicle Request</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_client_script_8d9f5e8d87e1d110ff1ffcc4dabb3546</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-08-24 19:56:37</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8bcd418887c19110b278caa5cebb35c1" label="Manufacturer" max_length="40" name="x_snc_flt_mgmt_manufacturer" type="collection">
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent" max_length="32" name="parent" reference="x_snc_flt_mgmt_manufacturer" type="reference"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

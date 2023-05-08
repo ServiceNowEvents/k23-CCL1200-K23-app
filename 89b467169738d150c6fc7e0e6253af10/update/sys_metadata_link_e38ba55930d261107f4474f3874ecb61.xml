@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b2d4e59130d261107f4474f3874ecb69</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_vehicle">
+    <x_snc_flt_mgmt_vehicle action="INSERT_OR_UPDATE">
+        <assigned_to display_value="Jasmin Gum">b282abf03710200044e0bfc8bcbe5d31</assigned_to>
+        <image/>
+        <license_plate>LhlOg6)OGj(</license_plate>
+        <mileage>20017</mileage>
+        <model display_value="2021 Chevrolet Tahoe">eb6e194530d221107f4474f3874ecb22</model>
+        <next_oil_change>2023-05-13</next_oil_change>
+        <next_tire_rotation>2023-07-03</next_tire_rotation>
+        <notes/>
+        <number>VHCL0001104</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 12:59:42</sys_created_on>
+        <sys_id>b2d4e59130d261107f4474f3874ecb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 12:59:42</sys_updated_on>
+        <vehicle_name>2021 Chevrolet Tahoe</vehicle_name>
+        <vin>254.100.44.158</vin>
+    </x_snc_flt_mgmt_vehicle>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-18 13:28:59</sys_created_on>
+        <sys_id>e38ba55930d261107f4474f3874ecb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2021 Chevrolet Tahoe</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_e38ba55930d261107f4474f3874ecb61</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-18 13:28:59</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_vehicle</tablename>
+    </sys_metadata_link>
+</record_update>

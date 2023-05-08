@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ecd418887c19110b278caa5cebb3576" extends="task" label="Maint task" max_length="40" name="x_snc_flt_mgmt_maint_task" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Request" max_length="32" name="request" reference="x_snc_flt_mgmt_maint_req" type="reference"/>
+    </element>
+</database>

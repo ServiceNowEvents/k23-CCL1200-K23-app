@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_graphql_schema">
+    <sys_graphql_schema action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application_namespace>xSncFltMgmt</application_namespace>
+        <enforce_acl/>
+        <name>Fleet</name>
+        <namespace>fleet</namespace>
+        <paths>MaintReq:assignedTo,MaintReq:description,MaintReq:id,MaintReq:maintTasks,MaintReq:mileage,MaintReq:number,MaintReq:priority,MaintReq:shortDescription,MaintReq:state,MaintReq:type,MaintReq:vehicle,MaintTask:active,MaintTask:assignedTo,MaintTask:description,MaintTask:id,MaintTask:number,MaintTask:priority,MaintTask:shortDescription,MaintTask:state,Manufacturer:id,Manufacturer:name,Model:id,Model:manufacturer,Model:model,Model:modelName,Model:type,Model:year,Part:id,Part:partName,Part:partReference,Part:serialNumber,PartReference:id,Query:maintReq,Query:maintTask,Query:manufacturers,Query:models,Query:vehicle,Query:vehicles,User:active,User:city,User:email,User:id,User:manager,User:name,User:phone,User:state,Vehicle:assignedTo,Vehicle:id,Vehicle:image,Vehicle:licensePlate,Vehicle:maintReqs,Vehicle:mileage,Vehicle:model,Vehicle:notes,Vehicle:number,Vehicle:oilChange,Vehicle:parts,Vehicle:tireRotation,Vehicle:vin</paths>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <schema>schema {&#13;
+	query: Query&#13;
+	mutation: Mutation&#13;
+}&#13;
+&#13;
+# NOTE: "!" means that a value is mandatory&#13;
+type Query {&#13;
+	maintTask(id: ID!): MaintTask&#13;
+	maintReq(id: ID!) : MaintReq&#13;
+	models(query: String, orderBy: String) : [Model]&#13;
+	manufacturers(query: String, orderBy: String) : [Manufacturer]&#13;
+	vehicles(query: String, orderBy: String) : [Vehicle]&#13;
+	vehicle(id: ID!) : Vehicle&#13;
+}&#13;
+&#13;
+type Mutation {&#13;
+	#implement here...&#13;
+}&#13;
+&#13;
+# @source directive instructs engine which field on the GR to retun&#13;
+type MaintTask {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	number: String! @source(value: "number.value")&#13;
+	active: Boolean! @source(value: "active.display_value")&#13;
+	state: String! @source(value: "state.display_value")&#13;
+	shortDescription: String @source(value: "short_description.value")&#13;
+	description: String @source(value: "description.value")&#13;
+	priority: String @source(value: "priority.display_value")&#13;
+	assignedTo: User @source(value: "assigned_to.value")&#13;
+}&#13;
+&#13;
+type MaintReq {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	number: String! @source(value: "number.value")&#13;
+	state: String! @source(value: "state.display_value")&#13;
+	shortDescription: String @source(value: "short_description.value")&#13;
+	description: String @source(value: "description.value")&#13;
+	priority: String @source(value: "priority.display_value")&#13;
+	assignedTo: User @source(value: "assigned_to.value")&#13;
+	mileage: Int @source(value: "mileage.value")&#13;
+	vehicle: Vehicle @source(value: "vehicle.value")&#13;
+	type: String! @source(value: "type.display_value")&#13;
+	maintTasks: [MaintTask] @source(value: "sys_id.value") # Look up Tasks by Req&#13;
+}&#13;
+&#13;
+type Manufacturer {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	name: String @source(value: "name.value")&#13;
+&#13;
+}&#13;
+&#13;
+type Model {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	modelName : String @source(value: "model_name.value")&#13;
+	type: String @source(value: "type.value")&#13;
+	manufacturer: Manufacturer @source(value: "manufacturer.value")&#13;
+	model: String @source(value: "model.value")&#13;
+	year: Int @source(value: "year.value")&#13;
+}&#13;
+&#13;
+type Part {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	serialNumber: String @source(value: "serial_number.value")&#13;
+	partReference: PartReference @source(value: "part_reference.value")&#13;
+	partName: String @source(value: "part_name.value")&#13;
+}&#13;
+&#13;
+type PartReference {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+&#13;
+}&#13;
+&#13;
+type Vehicle {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	number: String @source(value: "number.value")&#13;
+	assignedTo: User @source(value: "assigned_to.value")&#13;
+	mileage: Int @source(value: "mileage.value")&#13;
+	model: Model @source(value: "model.value")&#13;
+	licensePlate: String @source(value: "license_plate.value")&#13;
+	image: String @source(value: "image.display_value")&#13;
+	notes: String @source(value: "notes.value")&#13;
+	vin: String @source(value: "vin.value")&#13;
+	tireRotation: String @source(value: "next_tire_rotation.display_value")&#13;
+	oilChange: String @source(value: "next_oil_change.display_value")&#13;
+	maintReqs: [MaintReq] @source(value: "sys_id.value")&#13;
+	parts: [Part] @source(value: "sys_id.value")&#13;
+}&#13;
+&#13;
+type User {&#13;
+	id: String @source(value: "sys_id.value")&#13;
+	active: String @source(value: "active.display_value")&#13;
+	name: String @source(value: "name.value")&#13;
+	email: String @source(value: "email.value")&#13;
+	phone: String @source(value: "mobile_phone.value")&#13;
+	manager: User @source(value: "manager.value")&#13;
+	city: String @source(value: "city.value")&#13;
+	state: String @source(value: "state.value")&#13;
+}&#13;
+</schema>
+        <sys_class_name>sys_graphql_schema</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-07-22 17:16:44</sys_created_on>
+        <sys_id>1f02cc6e2ff051109622bcb62799b6f0</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Fleet</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_graphql_schema_1f02cc6e2ff051109622bcb62799b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 03:11:50</sys_updated_on>
+        <type_names/>
+    </sys_graphql_schema>
+</record_update>

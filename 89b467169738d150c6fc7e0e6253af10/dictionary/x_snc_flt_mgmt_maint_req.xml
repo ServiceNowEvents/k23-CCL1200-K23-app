@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1cd418887c19110b278caa5cebb3504" extends="task" label="Maint req" max_length="40" name="x_snc_flt_mgmt_maint_req" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Mileage" max_length="40" name="mileage" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Unscheduled" label="Type" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="Scheduled"/>
+                <element inactive_on_update="false" label="Unscheduled" sequence="1" value="Unscheduled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Vehicle" max_length="32" name="vehicle" reference="x_snc_flt_mgmt_vehicle" type="reference"/>
+    </element>
+</database>

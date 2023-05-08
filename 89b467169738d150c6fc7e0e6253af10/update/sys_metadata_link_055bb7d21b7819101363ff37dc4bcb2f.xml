@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e5c8335e1b3819101363ff37dc4bcb96</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_snc_flt_mgmt_maint_task">
+    <x_snc_flt_mgmt_maint_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to display_value="Don Goodliffe">9ee1b13dc6112271007f9d0efdb69cd0</assigned_to>
+        <assignment_group/>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>MTASK0001003</number>
+        <opened_at>2022-07-22 16:34:34</opened_at>
+        <opened_by display_value="Brad Tilton">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <request display_value="MREQ0001006">d7a83bda1b3819101363ff37dc4bcb43</request>
+        <route_reason/>
+        <service_offering/>
+        <short_description>Replace windshield wipers</short_description>
+        <skills/>
+        <sla_due/>
+        <sn_esign_document/>
+        <sn_esign_esignature_configuration/>
+        <state>1</state>
+        <sys_class_name>x_snc_flt_mgmt_maint_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:36:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5c8335e1b3819101363ff37dc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:36:16</sys_updated_on>
+        <task_effective_number>MTASK0001003</task_effective_number>
+        <time_worked/>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_snc_flt_mgmt_maint_task>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:45:43</sys_created_on>
+        <sys_id>055bb7d21b7819101363ff37dc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MTASK0001003</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_055bb7d21b7819101363ff37dc4bcb2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:45:43</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_maint_task</tablename>
+    </sys_metadata_link>
+</record_update>

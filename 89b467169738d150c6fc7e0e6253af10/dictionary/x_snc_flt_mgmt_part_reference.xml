@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f7cd818887c19110b278caa5cebb351f" label="Part reference" max_length="40" name="x_snc_flt_mgmt_part_reference" type="collection">
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="body" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Body" sequence="10" value="body"/>
+                <element inactive_on_update="false" label="Mechanical" sequence="20" value="mechanical"/>
+            </choice>
+        </element>
+    </element>
+</database>

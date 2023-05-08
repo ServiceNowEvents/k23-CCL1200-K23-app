@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_composite">
+    <sys_ux_data_broker_composite action="INSERT_OR_UPDATE">
+        <api_name>x_snc_flt_mgmt.Get Vehicle Information</api_name>
+        <data_drivers>{&#13;
+    "vehicleQuery" : {&#13;
+        "definition": {&#13;
+            "id": "417d275887a15550bf924085dabb3553",&#13;
+            "type": "GRAPHQL"&#13;
+        }, &#13;
+        "elementId": "vehicleQuery",&#13;
+        "inputValues": {&#13;
+            "vehicleSysId": {&#13;
+                "type": "BROKER_INTERNAL_INPUT_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                        "vehicleSysId"&#13;
+                    ]&#13;
+                }&#13;
+            }&#13;
+        },&#13;
+        "elementLabel": "Vehicle Query"&#13;
+    },&#13;
+    "vehicle": {&#13;
+        "definition": {&#13;
+            "id": "a1727c3087ad9550bf924085dabb350b",&#13;
+            "type": "SCRIPTLET"&#13;
+        },&#13;
+        "elementId": "vehicle",&#13;
+        "inputValues": {&#13;
+            "vehicleGQL": {&#13;
+                "type": "BROKER_INTERNAL_STATE_BINDING",&#13;
+                "binding": {&#13;
+                    "address": [&#13;
+                        "vehicleQuery",&#13;
+                        "output"&#13;
+                    ]&#13;
+                }&#13;
+            }&#13;
+        },&#13;
+        "elementLabel": "Vehicle"&#13;
+    }&#13;
+}</data_drivers>
+        <description>Composite data resource composed of the Get Vehicle GraphQL and Scriptlet DRs</description>
+        <name>Get Vehicle Information</name>
+        <operations/>
+        <output_properties>[&#13;
+ {&#13;
+    "name": "vehicle",&#13;
+    "label": "Vehicle",&#13;
+    "description": "Vehicle",&#13;
+    "origin": {&#13;
+       "type": "data",&#13;
+       "id": "vehicle"&#13;
+    }&#13;
+  }&#13;
+]</output_properties>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "vehicleSysId",&#13;
+        "label": "Vehicle SysID",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+      }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Vehicle SysID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_composite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-24 14:57:37</sys_created_on>
+        <sys_id>2dded10987e51950bf924085dabb358b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Vehicle Information</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_data_broker_composite_2dded10987e51950bf924085dabb358b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-24 15:12:43</sys_updated_on>
+    </sys_ux_data_broker_composite>
+    <sys_translated_text action="delete_multiple" query="documentkey=2dded10987e51950bf924085dabb358b"/>
+</record_update>

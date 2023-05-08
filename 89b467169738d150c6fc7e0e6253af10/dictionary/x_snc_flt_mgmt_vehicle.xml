@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d7cd418887c19110b278caa5cebb35e6" label="Vehicle" max_length="40" name="x_snc_flt_mgmt_vehicle" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="License plate" max_length="40" name="license_plate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mileage" max_length="40" name="mileage" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Model" max_length="32" name="model" reference="x_snc_flt_mgmt_model" type="reference"/>
+        <element label="Next oil change" max_length="40" name="next_oil_change" type="glide_date"/>
+        <element label="Next tire rotation" max_length="40" name="next_tire_rotation" type="glide_date"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Vehicle name" max_length="100" name="vehicle_name" type="string"/>
+        <element label="VIN" max_length="100" name="vin" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="model"/>
+        </index>
+    </element>
+</database>

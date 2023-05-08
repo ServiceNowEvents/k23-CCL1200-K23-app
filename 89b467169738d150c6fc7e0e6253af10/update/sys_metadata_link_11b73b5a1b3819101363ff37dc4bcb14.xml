@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4f6777d61b3819101363ff37dc4bcbc1</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_flt_mgmt_part_reference">
+    <x_snc_flt_mgmt_part_reference action="INSERT_OR_UPDATE">
+        <name>Wiper blades</name>
+        <number>PARTREF0001003</number>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:28:56</sys_created_on>
+        <sys_id>4f6777d61b3819101363ff37dc4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:28:56</sys_updated_on>
+        <type>body</type>
+    </x_snc_flt_mgmt_part_reference>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:29:54</sys_created_on>
+        <sys_id>11b73b5a1b3819101363ff37dc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wiper blades</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_metadata_link_11b73b5a1b3819101363ff37dc4bcb14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:29:54</sys_updated_on>
+        <tablename>x_snc_flt_mgmt_part_reference</tablename>
+    </sys_metadata_link>
+</record_update>

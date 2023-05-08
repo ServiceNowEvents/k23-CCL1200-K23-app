@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Fleet Vehicle Management">0243b35223381910d6a0e0d2394231be</page>
+        <required_translations>[{"message":"New Incident","comment":""},{"message":"New Interaction","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 16:10:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>ce43b352a7381910117037c0ab7748bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_page_property_ce43b352a7381910117037c0ab7748bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 16:10:34</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_flt_mgmt.0243b35223381910d6a0e0d2394231be.root.chrome_tab</unique_name>
+        <value>{&#13;
+   "contextual":[&#13;
+      "record"&#13;
+   ],&#13;
+   "newTabMenu":[&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Interaction"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"interaction",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         },&#13;
+         "condition":{&#13;
+            "tableDescription":{&#13;
+               "table":"interaction",&#13;
+               "canCreate":true&#13;
+            }&#13;
+         }&#13;
+      },&#13;
+      {&#13;
+         "label":{&#13;
+            "translatable":true,&#13;
+            "message":"New Incident"&#13;
+         },&#13;
+         "routeInfo":{&#13;
+            "route":"record",&#13;
+            "fields":{&#13;
+               "table":"incident",&#13;
+               "sysId":"-1"&#13;
+            },&#13;
+            "multiInstField":"sysId"&#13;
+         }&#13;
+      }&#13;
+   ],&#13;
+   "maxMainTabLimit":10,&#13;
+   "maxTotalSubTabLimit":30&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce43b352a7381910117037c0ab7748bd"/>
+</record_update>
