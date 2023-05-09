@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f1cd418887c19110b278caa5cebb3504" extends="task" label="Maint req" max_length="40" name="x_snc_flt_mgmt_maint_req" type="collection">
+    <element attributes="email_client=true" audit="true" db_object_id="f1cd418887c19110b278caa5cebb3504" extends="task" label="Maint req" max_length="40" name="x_snc_flt_mgmt_maint_req" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Mileage" max_length="40" name="mileage" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Unscheduled" label="Type" max_length="40" name="type" type="string">
             <choice>
