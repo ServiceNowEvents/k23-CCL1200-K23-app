@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "extraParams" : "",
+  "table" : "x_snc_flt_mgmt_vehicle",
+  "sysId" : "fef6b31a1b3819101363ff37dc4bcb9a",
+  "query" : "",
+  "views" : "",
+  "selectedTabIndex" : ""
+}</macroponent_config>
+        <screen display_value="Vehicle Record">2d1a1a0c447221107f44b50bda6199eb</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 16:11:15</sys_created_on>
+        <sys_id>2d1a5a0c447221107f44b50bda619938</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2d1a5a0c447221107f44b50bda619938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 16:12:28</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
