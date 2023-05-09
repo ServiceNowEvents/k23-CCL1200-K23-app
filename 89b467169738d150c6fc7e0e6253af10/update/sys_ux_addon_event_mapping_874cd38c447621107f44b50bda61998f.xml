@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>Quick Add Request</name>
+        <parent_macroponent display_value="Vehicle Record">c51a1a0c447221107f44b50bda6199dc</parent_macroponent>
+        <source_component/>
+        <source_da display_value="flt_mgmt_quick_add_req">866bd34c447621107f44b50bda6199c2</source_da>
+        <source_element_id>ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 21:01:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>874cd38c447621107f44b50bda61998f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Add Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_874cd38c447621107f44b50bda61998f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:01:06</sys_updated_on>
+        <target_event display_value="Quick Add Modal">a815bec444f221107f44b50bda619962</target_event>
+        <target_payload_mapping/>
+    </sys_ux_addon_event_mapping>
+</record_update>

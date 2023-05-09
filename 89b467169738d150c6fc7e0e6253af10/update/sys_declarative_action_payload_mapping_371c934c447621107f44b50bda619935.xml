@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Quick Add Request">978b974c447621107f44b50bda619975</action_payload_definition>
+        <label>Quick Add Request Form</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <payload_map>EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 20:59:45</sys_created_on>
+        <sys_id>371c934c447621107f44b50bda619935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Add Request Form</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_371c934c447621107f44b50bda619935</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 20:59:45</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

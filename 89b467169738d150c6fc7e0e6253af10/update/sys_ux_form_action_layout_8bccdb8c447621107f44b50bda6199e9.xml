@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout">
+    <sys_ux_form_action_layout action="INSERT_OR_UPDATE">
+        <action_config display_value="Fleet Mgmt Action Config">d680a854396a21107f44ea0f5e507b66</action_config>
+        <active>true</active>
+        <description/>
+        <name>Vehicle Form Action Layout</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 21:06:02</sys_created_on>
+        <sys_id>8bccdb8c447621107f44b50bda6199e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Form Action Layout</sys_name>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_8bccdb8c447621107f44b50bda6199e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:06:02</sys_updated_on>
+        <table>x_snc_flt_mgmt_vehicle</table>
+    </sys_ux_form_action_layout>
+</record_update>

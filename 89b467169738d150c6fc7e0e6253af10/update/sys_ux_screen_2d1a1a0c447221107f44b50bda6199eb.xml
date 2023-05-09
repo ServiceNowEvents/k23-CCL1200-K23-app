@@ -3,7 +3,79 @@
         <active>true</active>
         <app_config display_value="Fleet Vehicle Management Config">0a43b352d63819100db25335345d81c0</app_config>
         <description/>
-        <event_mappings>[ ]</event_mappings>
+        <event_mappings>[ {
+  "eventMappingId" : "clhglhhnmggaajjytddbhhtqzyeebbvwhh",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_snc_flt_mgmt.MODAL_SELECTED_RELAY_c51a1a0c447221107f44b50bda6199dc",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_snc_flt_mgmt.MODAL_SELECTED_RELAY_c51a1a0c447221107f44b50bda6199dc",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "bare" ]
+            }
+          },
+          "viewportElementId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "viewportElementId" ]
+            }
+          },
+          "viewportRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "viewportRoute" ]
+            }
+          },
+          "viewportFields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "viewportFields" ]
+            }
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "clhglhhnmggaajjysddbhhtjjaybwlti",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
         <macroponent display_value="Vehicle Record">c51a1a0c447221107f44b50bda6199dc</macroponent>
         <macroponent_config>{
   "views" : {
@@ -60,7 +132,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d1a1a0c447221107f44b50bda6199eb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Vehicle Record</sys_name>
         <sys_overrides/>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
@@ -68,7 +140,7 @@
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_screen_2d1a1a0c447221107f44b50bda6199eb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-09 16:12:45</sys_updated_on>
+        <sys_updated_on>2023-05-09 18:10:37</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=2d1a1a0c447221107f44b50bda6199eb"/>
 </record_update>

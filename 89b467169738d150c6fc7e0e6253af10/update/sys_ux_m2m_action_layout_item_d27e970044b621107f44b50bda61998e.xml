@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_action_layout_item">
+    <sys_ux_m2m_action_layout_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <sys_class_name>sys_ux_m2m_action_layout_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-09 21:10:02</sys_created_on>
+        <sys_id>d27e970044b621107f44b50bda61998e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
+        <sys_update_name>sys_ux_m2m_action_layout_item_d27e970044b621107f44b50bda61998e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-09 21:10:02</sys_updated_on>
+        <table>global</table>
+        <ux_form_action_layout display_value="Vehicle Form Action Layout">8bccdb8c447621107f44b50bda6199e9</ux_form_action_layout>
+        <ux_form_action_layout_item display_value="Quick Add Req">c79d5bcc447621107f44b50bda61995b</ux_form_action_layout_item>
+    </sys_ux_m2m_action_layout_item>
+</record_update>
