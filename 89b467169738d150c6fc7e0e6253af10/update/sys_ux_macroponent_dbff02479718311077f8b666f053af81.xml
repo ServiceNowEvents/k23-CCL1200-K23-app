@@ -504,14 +504,43 @@
           },
           "overrides" : {
             "composition" : [ {
-              "elementId" : "repeater_2",
+              "elementId" : "container_4",
               "elementLabel" : "List container",
-              "propertyValues" : { },
+              "propertyValues" : {
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
+                },
+                "hideEmptyStateUi" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : true
+                },
+                "ariaRegionName" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "includeAriaHeading" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "section"
+                },
+                "ariaRole" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
+                }
+              },
               "eventMappings" : [ ],
               "slot" : null,
               "definition" : {
-                "id" : "",
-                "type" : "REPEATER"
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
+                "type" : "MACROPONENT"
               },
               "overrides" : {
                 "composition" : [ {
@@ -663,7 +692,7 @@
                       "type" : "EVENT"
                     } ]
                   } ],
-                  "slot" : null,
+                  "slot" : "",
                   "definition" : {
                     "id" : "d37ce8abca89d02905fed903c8e34d8e",
                     "type" : "MACROPONENT"
@@ -683,7 +712,7 @@
                   "default" : {
                     "children" : null,
                     "isInline" : null,
-                    "items" : [{"element_id":"stylized_text_4","styles":{}},{"element_id":"stylized_text_5","styles":{}},{"element_id":"button_1","styles":{}}],
+                    "items" : [{"element_id":"stylized_text_4","styles":{}},{"element_id":"stylized_text_5","styles":{}},{"element_id":"button_1","styles":{"padding":"var(--now-static-space--lg)"}}],
                     "root" : null,
                     "rules" : null,
                     "styles" : {"flex-direction":"column","display":"grid","grid-template-columns":"1fr 1fr 1fr","grid-template-rows":"1fr","grid-auto-rows":"1fr","grid-auto-columns":"1fr"},
@@ -701,15 +730,9 @@
               "extensionPoints" : [ ],
               "isNonDestructive" : false,
               "items" : [ ],
-              "repeatWith" : {
-                "type" : "JSON_LITERAL",
-                "value" : [ {
-                  "task" : "A"
-                }, {
-                  "task" : "B"
-                } ]
-              },
-              "styles" : { }
+              "styles" : {
+                "width" : "100%"
+              }
             } ],
             "layout" : null
           },
@@ -1788,14 +1811,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-01 12:43:05</sys_created_on>
         <sys_id>dbff02479718311077f8b666f053af81</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Dispatcher home</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_dbff02479718311077f8b666f053af81</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-02 12:24:05</sys_updated_on>
+        <sys_updated_on>2023-08-02 14:58:23</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=dbff02479718311077f8b666f053af81"/>
 </record_update>
