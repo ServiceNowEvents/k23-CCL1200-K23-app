@@ -144,140 +144,12 @@
     "type" : "MACROPONENT"
   },
   "overrides" : {
-    "composition" : [ {
-      "elementId" : "container_1",
-      "elementLabel" : "Search",
-      "propertyValues" : {
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
-        },
-        "hideEmptyStateUi" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "ariaRegionName" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "",
-            "comment" : ""
-          }
-        },
-        "includeAriaHeading" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "type" : {
-          "type" : "JSON_LITERAL",
-          "value" : "section"
-        },
-        "ariaRole" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "isInline" : null,
-            "items" : [],
-            "root" : null,
-            "rules" : null,
-            "styles" : {"flex-direction":"column"},
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          },
-          "version" : "3.0.0"
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "extensionPoints" : [ ],
-      "isNonDestructive" : false,
-      "items" : [ ],
-      "styles" : null
-    }, {
-      "elementId" : "container_2",
-      "elementLabel" : "Vehicle",
-      "propertyValues" : {
-        "ariaRegionHeadingLevel" : {
-          "type" : "JSON_LITERAL",
-          "value" : "1"
-        },
-        "hideEmptyStateUi" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "ariaRegionName" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "",
-            "comment" : ""
-          }
-        },
-        "includeAriaHeading" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "type" : {
-          "type" : "JSON_LITERAL",
-          "value" : "section"
-        },
-        "ariaRole" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : null,
-      "definition" : {
-        "id" : "d356d14b6e293a3020a244b63d278d8f",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : {
-        "composition" : [ ],
-        "layout" : {
-          "default" : {
-            "children" : null,
-            "isInline" : null,
-            "items" : [],
-            "root" : null,
-            "rules" : null,
-            "styles" : {"flex-direction":"column"},
-            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-            "type" : "flex"
-          },
-          "version" : "3.0.0"
-        }
-      },
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : null
-      },
-      "isHero" : false,
-      "extensionPoints" : [ ],
-      "isNonDestructive" : false,
-      "items" : [ ],
-      "styles" : null
-    } ],
+    "composition" : [ ],
     "layout" : {
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"container_1","styles":{"width":"100%"}},{"element_id":"container_2","styles":{"width":"100%"}}],
+        "items" : [],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"column"},
@@ -1200,14 +1072,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-01 12:43:05</sys_created_on>
         <sys_id>dbff02479718311077f8b666f053af81</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Dispatcher home</sys_name>
         <sys_package display_value="Fleet Vehicle Management" source="x_snc_flt_mgmt">89b467169738d150c6fc7e0e6253af10</sys_package>
         <sys_policy/>
         <sys_scope display_value="Fleet Vehicle Management">89b467169738d150c6fc7e0e6253af10</sys_scope>
         <sys_update_name>sys_ux_macroponent_dbff02479718311077f8b666f053af81</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-02 07:50:04</sys_updated_on>
+        <sys_updated_on>2023-08-02 07:56:47</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=dbff02479718311077f8b666f053af81"/>
 </record_update>
